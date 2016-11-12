@@ -11,9 +11,15 @@
     tools:context="salt.movil.listacomida.MenuActivity">
 
     <TextView
+        android:layout_centerHorizontal="true"
         android:id="@+id/txt_menu_activity"
         android:text="Menuuuuuuuuuu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <ListView
+        android:layout_below="@id/txt_menu_activity"
+        android:id="@+id/list_items_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </RelativeLayout>

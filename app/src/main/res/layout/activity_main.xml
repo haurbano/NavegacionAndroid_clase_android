@@ -9,7 +9,7 @@
     <EditText
         android:id="@+id/edit_texto_trans"
         android:gravity="center"
-        android:hint="Texto a transmitir"
+        android:hint="Nombre"
         android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
